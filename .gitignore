@@ -1,2 +1,7 @@
 
 *.pptx
+venv
+models
+CCNA
+__pycache__
+.idea
