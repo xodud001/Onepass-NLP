@@ -15,9 +15,7 @@ from tensorflow.keras.models import load_model
 
 from tensorflow.keras import optimizers
 
-# 단어구 로드
-load_phrase = lp.LoadPhrase()
-phrases = load_phrase.get_phrases()
+import numpy as np
 
 # 토큰화 도구
 tokenizer = TreebankWordTokenizer()
@@ -67,39 +65,50 @@ y_mapper = {word: index + 1 for index, word in enumerate(y_mapper)}
 y_train = [y_mapper[y] for y in y_train]
 
 # 정수 인덱싱
-word_len = 1000
+word_len = 1500
 tokenizer = Tokenizer(num_words=word_len)
 tokenizer.fit_on_texts(x_train)
 x_train = tokenizer.texts_to_sequences(x_train)
 
 # print('슬라이드의 최대 길이 :{}'.format(max(len(l) for l in x_train)))
 # print('슬라이드의 평균 길이 :{}'.format(sum(map(len, x_train))/len(x_train)))
+# print(tokenizer.index_word)
 # plt.hist([len(s) for s in x_train], bins=50)
 # plt.xlabel('length of samples')
 # plt.ylabel('number of samples')
 # plt.show()
 
 # 패딩
-max_len = 30
+max_len = 40
 x_train = pad_sequences(x_train, max_len)
 
 # 원 핫 인코딩
 max_len = max(i for i in y_train)
 y_train = to_categorical(y_train, max_len + 1)
 
-model = Sequential()
-model.add(Embedding(word_len, 120))
-model.add(LSTM(120))
-model.add(Dense(len(y_mapper) + 1, activation='softmax'))
-
-es = EarlyStopping(monitor='val_loss', mode='min', verbose=1, patience=4)
-mc = ModelCheckpoint('best_model.h5', monitor='val_acc', mode='max', verbose=1, save_best_only=True)
-
-model.compile(loss='binary_crossentropy',
-  optimizer=optimizers.RMSprop(lr=2e-5),
-  metrics=['acc'])
-
-history = model.fit(x_train, y_train, batch_size=64, epochs=1000, callbacks=[es, mc], validation_data=(x_train, y_train))
+# model = Sequential()
+# model.add(Embedding(word_len, 120))
+# model.add(LSTM(120))
+# model.add(Dense(len(y_mapper) + 1, activation='softmax'))
+#
+# es = EarlyStopping(monitor='val_loss', mode='min', verbose=1, patience=4)
+# mc = ModelCheckpoint('best_model.h5', monitor='val_acc', mode='max', verbose=1, save_best_only=True)
+#
+# model.compile(loss='binary_crossentropy',
+#   optimizer=optimizers.RMSprop(lr=2e-5),
+#   metrics=['acc'])
+#
+# history = model.fit(x_train, y_train, batch_size=128, epochs=500, callbacks=[es, mc], validation_data=(x_train, y_train))
 
 loaded_model = load_model('best_model.h5')
 print("\n 테스트 정확도: %.4f" % (loaded_model.evaluate(x_train, y_train)[1]))
+# print(loaded_model.summary())
+#
+# predictions = loaded_model.predict(x_train)
+#
+# print(x_train[0])
+# np.argmax(predictions[0])
+
+# print(predictions[0][3])
+
+
