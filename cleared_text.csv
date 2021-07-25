@@ -1,0 +1,201 @@
+Which subnet mask would be used if 5 host bits are available   255 255 255 224 
+A computer can access devices on the same network but cannot access devices on other networks  What is the probable cause of this problem   The computer has an invalid default gateway address  
+Which statement describes the ping and tracert commands   Tracert shows each hop
+Which type of wireless network is suitable for providing wireless access to a city or district   wireless metropolitan-area network 
+What property of ARP causes the NICs receiving an ARP request to pass the data portion of the Ethernet frame to the ARP process   The type field 0x806 appears in the header of the Ethernet frame  
+What is the advantage of using SSH over Telnet   SSH provides secure communications to access hosts  
+What property of ARP allows MAC addresses of frequently used servers to be fixed in the ARP table   A static IP-to-MAC address entry can be entered manually into an ARP table  
+What is true about the Server Message Block protocol   Clients establish a long term connection to servers  
+What is the role of an IPS   detecting and blocking of attacks in real time 
+A set of switches is being connected in a LAN topology  Which STP bridge priority value will make it least likely for the switch to be selected as the root   61440 
+What type of VLAN should not carry voice and network management traffic   data VLAN 
+Which of these addresses is the shortest abbreviation for the IP address  3FFE 1044 0000 0000 00AB 0000 0000 0057   3FFE 1044 0 0 AB  57 
+What three items are contained in an Ethernet header and trailer   Choose three    source MAC address 
+Which spanning tree standard supports only one root bridge so that traffic from all VLANs flows over the same path   802 1D 
+Which parameter does the router use to choose the path to the destination when there are multiple routes available   the lower metric value that is associated with the destination network 
+Which access control component  implementation  or protocol controls what users can do on the network   authorization 
+What type of VLAN is configured specifically for network traffic such as SSH  Telnet  HTTPS  HHTP  and SNMP   management VLAN 
+What do the client server and peer-to-peer network models have in common   Both models support devices in server and client roles  
+A company uses the SLAAC method to configure IPv6 addresses for the employee workstations  Which address will a client use as its default gateway   the link-local address of the router interface that is attached to the network 
+Which subnet mask would be used if 5 host bits are available   255 255 255 224 
+The command ntp server 10 1 1 1 is issued on a router  What impact does this command have   synchronizes the system clock with the time source with IP address 10 1 1 1 
+What is considered the most effective way to mitigate a worm attack   Download security updates from the operating system vendor and patch all vulnerable systems  
+Students who are connected to the same switch are having slower than normal response times  The administrator suspects a duplex setting issue  What is the best command to use to accomplish the task   show interfaces 
+Which is the compressed format of the IPv6 address fe80 09ea 0000 2200 0000 0000 0fe0 0290   fe80 9ea 0 2200  fe0 290 
+What is the function of the Diffie-Hellman algorithm within the IPsec framework   allows peers to exchange shared keys 
+What characteristic completes the following statement  When an IPv6 static route is configured  the next-hop address can be     an IPv6 link-local address on the adjacent router  
+What is the minimum Ethernet frame size that will not be discarded by the receiver as a runt frame   64 bytes 
+What are three characteristics of an SVI   Choose three    It is not associated with any physical interface on a switch  
+A host is transmitting a unicast  Which host or hosts will receive it   one specific host 
+What is the aim of an ARP spoofing attack   to associate IP addresses to the wrong MAC address 
+What is the minimum Ethernet frame size that will not be discarded by the receiver as a runt frame   64 bytes 
+Which type of management frame may regularly be broadcast by an AP   beacon 
+Which three OSPF states are involved when two routers are forming an adjacency   Choose three    Init 
+How many host addresses are available on the 192 168 10 128 26 network   62 
+A user issues a ping 192 135 250 103 command and receives a response that includes a code of 1  What does this code represent   host unreachable 
+What is the significant difference between a hub and a Layer 2 LAN switch   A hub extends a collision domain
+Which type of VPN routes packets through virtual tunnel interfaces for encryption and forwarding   IPsec virtual tunnel interface 
+Which field in the TCP header indicates the status of the three-way handshake process   control bits 
+What type of network traffic requires QoS   video conferencing 
+How many host addresses are available on the network 172 16 128 0 with a subnet mask of 255 255 252 0   1022 
+What action will occur if a switch receives a frame and does have the source MAC address in the MAC table   The switch refreshes the timer on that entry  
+An employee complains that a Windows PC cannot connect to the Internet  A network technician issues the ipconfig command on the PC and is shown an IP address of 169 254 10 3  Which two conclusions can be drawn   Choose two    The PC cannot contact a DHCP server  
+What is the purpose of the FCS field in a frame   to determine if errors occurred in the transmission and reception 
+What is a characteristic of the LLC sublayer   It places information in the frame allowing multiple Layer 3 protocols to use the same network interface and media  
+A network administrator enters the following commands on the switch SW1  prompt SW1 config   interface range fa0 5 - 10  br SW1 config-if   ip dhcp snooping limit rate 6  br What is the effect after these commands are entered   prompt   FastEthernet ports 5 through 10 can receive up to 6 DHCP discovery messages per second  
+What does the term  attenuation  mean in data communication   loss of signal strength as distance increases 
+Which factor determines TCP window size   the amount of data the destination can process at one time 
+A switch is configured to run STP  What term describes a field that has a default value of 32 768 and is the initial deciding factor when electing a root bridge   bridge priority 
+What is the purpose of the OSI physical layer   transmitting bits across the local media 
+Which two OSI model layers have the same functionality as a single layer of the TCP IP model   Choose two    data link 
+A small coffee shop is offering free Wi-Fi to customers  The network includes a wireless router and a DSL modem that is connected to the local phone company  What method is typically used to configure the connection to the phone company   Set the WAN connection in the wireless router as a DHCP client  
+A network administrator is working to improve WLAN performance on a dual-band wireless router  What is a simple way to achieve a split-the-traffic result   Make sure that different SSIDs are used for the 2 4 GHz and 5 GHz bands  
+A technician is configuring a new Cisco 2960 switch  What is the effect of issuing the BranchSw config-if   shutdown command   It disables a virtual or physical switch interface  
+The company handbook states that employees cannot have microwave ovens in their offices  Instead  all employees must use the microwave ovens located in the employee cafeteria  What wireless security risk is the company trying to avoid   accidental interference 
+Which type of attack involves an adversary attempting to gather information about a network to identify vulnerabilities   reconnaissance 
+Which term describes a field in the IPv4 packet header that contains a 32-bit binary value associated with an interface on the sending device   source IPv4 address 
+A company has recently implemented an 802 11n wireless network  Some users are complaining that the wireless network is too slow  Which solution is the best method to enhance the performance of the wireless network   Split the traffic between the 2 4 GHz and 5 GHz frequency bands  
+Which switch component reduces the amount of packet handling time inside the switch   ASIC 
+A technician is configuring a new Cisco 2960 switch  What is the effect of issuing the BranchSw config-if   ipv6 address 2001 db8 a2b4 88  1 64 command   It applies an IPv6 address to the virtual interface  
+What property of ARP allows MAC addresses of frequently used servers to be fixed in the ARP table   A static IP-to-MAC address entry can be entered manually into an ARP table  
+Which authentication method stores usernames and passwords in the router and is ideal for small networks   local AAA 
+What is one advantage that the IPv6 simplified header offers over IPv4   efficient packet handling 
+A technician is to document the current configurations of all network devices in a college  including those in off-site buildings  Which protocol would be best to use to securely access the network devices   SSH 
+At which OSI layer is a source MAC address added to a PDU during the encapsulation process   data link layer 
+The global configuration command ip default-gateway 172 16 100 1 is applied to a switch  What is the effect of this command   The switch can be remotely managed from a host on another network  
+Which set of access control entries would allow all users on the 192 168 10 0 24 network to access a web server that is located at 172 17 80 1  but would not allow them to use Telnet   access-list 103 permit tcp 192 168 10 0 0 0 0 255 host 172 17 80 1 eq 80 access-list 103 deny tcp 192 168 10 0 0 0 0 255 any eq 23 
+A host is transmitting a broadcast  Which host or hosts will receive it   all hosts in the same subnet 
+What action will occur if a switch receives a frame with the destination MAC address FF FF FF FF FF FF   The switch forwards it out all ports except the ingress port  
+A PC that is communicating with a web server has a TCP window size of 6 000 bytes when sending data and a packet size of 1 500 bytes  Which byte of information will the web server acknowledge after it has received two packets of data from the PC   3001 
+What property of ARP causes the NICs receiving an ARP request to pass the data portion of the Ethernet frame to the ARP process   The type field 0x806 appears in the header of the Ethernet frame  
+A user issues a ping fe80 65ab dcc1  100 command and receives a response that includes a code of 3  What does this code represent   address unreachable 
+Which solution would help a college alleviate network congestion due to collisions   a high port density switch 
+What OSI physical layer term describes the capacity at which a medium can carry data   bandwidth 
+What does the CLI prompt change to after entering the command ip access-list standard aaa from global configuration mode   Router config-std-nacl   
+What happens to switch ports after the VLAN to which they are assigned is deleted   The ports stop communicating with the attached devices  
+Refer to the exhibit  A network administrator is connecting a new host to the Service LAN  The host needs to communicate with remote networks  What IP address would be configured as the default gateway on the new host  prompt Main config   interface gi0 1  br Main config-if   description Connects to the Service LAN  br Main config-if   ip address 192 168 167 166 255 255 255 0  br Main config-if   no shutdown  br Main config-if   interface gi0 0  br Main config-if   description Connects to the Engineering LAN  br Main config-if   ip address 192 168 166 46 255 255 255 0  br Main config-if   no shutdown  br Main config-if   interface s0 0 0  br Main config-if   description Connects to the ISP  br Main config-if   ip address 10 166 167 254 255 255 255 0  br Main config-if   no shutdown  br Main config-if   interface s0 0 1  br Main config-if   description Connects to the Head Office WAN  br Main config-if   ip address 198 51 100 189 255 255 255 0  br Main config-if   no shutdown  br Main config-if   end  prompt   192 168 167 166 
+Which two commands can be used to enable BPDU guard on a switch   Choose two    S1 config   spanning-tree portfast bpduguard default 
+Which OPSF packet contains the different types of link-state advertisements   LSU 
+Which two functions are performed at the LLC sublayer of the OSI data link layer   Choose two    Enables IPv4 and IPv6 to utilize the same network interface and media  
+What property of ARP forces all Ethernet NICs to process an ARP request   The destination MAC address FF-FF-FF-FF-FF-FF appears in the header of the Ethernet frame  
+Which statement describes the behavior of a switch when the MAC address table is full   It treats frames as unknown unicast and floods all incoming frames to all ports within the local VLAN  
+An administrator decides to use  Feb121978  as the password on a newly installed router  Which statement applies to the password choice   It is weak because it uses easily found personal information  
+A router boots and enters setup mode  What is the reason for this   The configuration file is missing from NVRAM  
+What action will occur if a switch receives a frame with the destination MAC address FF FF FF FF FF FF   The switch forwards it out all ports except the ingress port  
+Which is the compressed format of the IPv6 address 2002 0042 0010 c400 0000 0000 0000 0909   2002 42 10 c400  909 
+Consider the following command  prompt ip route 192 168 10 0 255 255 255 0 10 10 10 2 5  br How would an administrator test this configuration   prompt   Manually shut down the router interface used as a primary route  
+Which field in the IPv4 header is used to prevent a packet from traversing a network endlessly   Time-to-Live 
+Which term describes a field in the IPv4 packet header that contains a 32-bit binary value associated with an interface on the sending device   source IPv4 address 
+A technician configures a switch with these commands  prompt SwitchA config   interface vlan 1  br SwitchA config-if   ip address 192 168 1 1 255 255 255 0  br SwitchA config-if   no shutdown  br What is the technician configuring   prompt   SVI 
+A technician is tasked with using ACLs to secure a router  When would the technician use the  ip access-group 101 in  configuration option or command   to apply an extended ACL to an interface 
+What type of IPv6 address is FE80  1   link-local 
+Which PDU format is used when bits are received from the network medium by the NIC of a host   frame 
+Which statement describes the behavior of a switch when the MAC address table is full   It treats frames as unknown unicast and floods all incoming frames to all ports within the local VLAN  
+Which two functions are performed at the MAC sublayer of the OSI data link layer   Choose two    Implements a trailer to detect transmission errors  
+An IT security specialist enables port security on a switch port of a Cisco switch  What is the default violation mode in use until the switch port is configured to use a different violation mode   shutdown 
+What is the role of an IPS   detecting and blocking of attacks in real time 
+Which method is used to send a ping message specifying the source address for the ping   Issue the ping command without specifying a destination IP address  
+Why is NAT not needed in IPv6   Any host or user can get a public IPv6 network address because the number of available IPv6 addresses is extremely large  
+What is the term used to describe the same pre-shared key or secret key  known by both the sender and receiver to encrypt and decrypt data   symmetric encryption algorithm 
+Which type of wireless network is suitable for providing wireless access to a city or district   wireless metropolitan-area network 
+Which two OSI model layers have the same functionality as a single layer of the TCP IP model   Choose two    data link 
+Which two WAN infrastructure services are examples of private connections   Choose two    Frame Relay 
+Which statement describes a characteristic of the frame header fields of the data link layer   They vary depending on protocols  
+A network administrator has configured an EtherChannel between two switches that are connected via four trunk links  If the physical interface for one of the trunk links changes to a down state  what happens to the EtherChannel   The EtherChannel will remain functional  
+What is the auto-MDIX feature on a switch   the automatic configuration of an interface for a straight-through or a crossover Ethernet cable connection 
+What is the usable number of host IP addresses on a network that has a  26 mask   62 
+Which two host names follow the guidelines for naming conventions on Cisco IOS devices   Choose two    RM-3-Switch-2A4 
+An administrator wants to create four subnetworks from the network address 192 168 1 0 24  What is the network address and subnet mask of the second useable subnet   subnetwork 192 168 1 64 subnet mask 255 255 255 192 
+What represents a best practice concerning discovery protocols such as CDP and LLDP on network devices   Disable both protocols on all interfaces where they are not required  
+What type of information is contained in a DNS MX record   the domain name mapped to mail exchange servers 
+Which step does an OSPF-enabled router take immediately after establishing an adjacency with another router   exchanges link-state advertisements 
+Which type of VPN routes packets through virtual tunnel interfaces for encryption and forwarding   IPsec virtual tunnel interface 
+During the implementation of Spanning Tree Protocol  all switches are rebooted by the network administrator  What is the first step of the spanning-tree election process   All the switches send out BPDUs advertising themselves as the root bridge  
+What OSI physical layer term describes the measure of usable data transferred over a given period of time   goodput 
+Which two functions are performed at the MAC sublayer of the OSI data link layer   Choose two    Provides a mechanism to allow multiple devices to communicate over a shared medium  
+Which component is designed to protect against unauthorized communications to and from a computer   firewall 
+Which two network design features require Spanning Tree Protocol  STP  to ensure correct network operation   Choose two    redundant links between Layer 2 switches 
+Which VPN solution allows the use of a web browser to establish a secure  remote-access VPN tunnel to the ASA   clientless SSL 
+Which command displays the encapsulation type  the voice VLAN ID  and the access mode VLAN for the Fa0 1 interface   show interfaces Fa0 1 switchport 
+At which OSI layer is a source IP address added to a PDU during the encapsulation process   network layer 
+Which two network design features require Spanning Tree Protocol  STP  to ensure correct network operation   Choose two    redundant links between Layer 2 switches 
+What are two characteristics of peer-to-peer networks   Choose two    decentralized resources 
+Which two characteristics are associated with UDP sessions   Choose two    Destination devices receive traffic with minimal delay  
+What routing table entry has a next hop address associated with a destination network   remote routes 
+What are two potential network problems that can result from ARP operation   Choose two    On large networks with low bandwidth
+Which three Cisco products focus on endpoint security solutions   Choose three    Web Security Appliance 
+Refer to the exhibit  A network administrator is connecting a new host to the Medical LAN  The host needs to communicate with remote networks  What IP address would be configured as the default gateway on the new host  prompt BldgA config   interface gi0 1  br BldgA config-if   description Connects to the Medical LAN  br BldgA config-if   ip address 192 168 201 200 255 255 255 0  br BldgA config-if   no shutdown  br BldgA config-if   interface gi0 0  br BldgA config-if   description Connects to the Client LAN  br BldgA config-if   ip address 192 168 200 80 255 255 255 0  br BldgA config-if   no shutdown  br BldgA config-if   interface s0 0 0  br BldgA config-if   description Connects to the ISP  br BldgA config-if   ip address 10 200 201 254 255 255 255 0  br BldgA config-if   no shutdown  br BldgA config-if   interface s0 0 1  br BldgA config-if   description Connects to the Head Office WAN  br BldgA config-if   ip address 203 0 113 222 255 255 255 0  br BldgA config-if   no shutdown  br BldgA config-if   end  prompt   192 168 201 200 
+When IPv4 addressing is manually configured on a web server  which property of the IPv4 configuration identifies the network and host portion for an IPv4 address   subnet mask 
+A user issues a ping fe80 65ab dcc1  100 command and receives a response that includes a code of 3  What does this code represent   address unreachable 
+What type of information is contained in a DNS MX record   the domain name mapped to mail exchange servers 
+What command will prevent all unencrypted passwords from displaying in plain text in a configuration file    config   service password-encryption 
+What is the purpose of ICMP messages   to provide feedback of IP packet transmissions 
+A network administrator of a college is configuring the WLAN user authentication process  Wireless users are required to enter username and password credentials that will be verified by a server  Which server would provide such service   RADIUS 
+What is the function of STP in a scalable network   It disables redundant paths to eliminate Layer 2 loops  
+What type of VLAN is designed to reserve bandwidth to ensure IP Phone quality   voice VLAN 
+Which subnet would include the address 192 168 1 96 as a usable host address   192 168 1 64 26 
+When would it be more beneficial to use a dynamic routing protocol instead of static routing   on a network where there is a lot of topology changes 
+What property of ARP allows hosts on a LAN to send traffic to remote networks   Local hosts learn the MAC address of the default gateway  
+What are two services provided by the OSI network layer   Choose two    routing packets toward the destination 
+Which three advantages are provided by static routing   Choose three    Static routing does not advertise over the network
+A site administrator has been told that a particular network at the site must accommodate 126 hosts  Which subnet mask would be used that contains the required number of host bits   255 255 255 128 
+What type of malware has the primary objective of spreading across the network   worm 
+Which command  when issued in the interface configuration mode of a router  enables the interface to acquire an IPv4 address automatically from an ISP  when that link to the ISP is enabled   ip address dhcp 
+Which three advantages are provided by static routing   Choose three    Static routing does not advertise over the network
+A client creates a packet to send to a server  The client is requesting FTP service  What number will be used as the destination port number in the sending packet   21 
+A technician is configuring the channel on a wireless router to either 1  6  or 11  What is the purpose of adjusting the channel   to avoid interference from nearby wireless devices 
+A network administrator is configuring DAI on a switch with the command ip arp inspection validate src-mac  What is the purpose of this configuration command   It checks the source MAC address in the Ethernet header against the sender MAC address in the ARP body  
+What is the term used to describe a potential danger to a company s assets  data  or network functionality   threat 
+Which two parameters must match on the ports of two switches to create a PAgP EtherChannel between the switches   Choose two    speed 
+If no bridge priority is configured in PVST  which criteria is considered when electing the root bridge   lowest MAC address 
+How is SSH different from Telnet   SSH provides security to remote sessions by encrypting messages and using user authentication  Telnet is considered insecure and sends messages in plaintext  
+Which command  when issued in the interface configuration mode of a router  enables the interface to acquire an IPv4 address automatically from an ISP  when that link to the ISP is enabled   ip address dhcp 
+What information does the loopback test provide   The TCP IP stack on the device is working correctly  
+Port Fa0 11 on a switch is assigned to VLAN 30  If the command no switchport access vlan 30 is entered on the Fa0 11 interface  what will happen   Port Fa0 11 will be returned to VLAN 1  
+Which action should be taken when planning for redundancy on a hierarchical network design   add alternate physical paths for data to traverse the network 
+Which step is required before creating a new WLAN on a Cisco 3500 series WLC   Create a new VLAN interface  
+Which access control component  implementation  or protocol logs EXEC and configuration commands configured by a user   accounting 
+A network technician issues the C   tracert -6 www cisco com command on a Windows PC  What is the purpose of the -6 command option   It forces the trace to use IPv6  
+What is the first action in the boot sequence when a switch is powered on   load a power-on self-test program 
+What action will occur if a switch receives a frame with the destination MAC address FF FF FF FF FF FF   The switch forwards it out all ports except the ingress port  
+Which command  when issued in the interface configuration mode of a router  enables the interface to acquire an IPv4 address automatically from an ISP  when that link to the ISP is enabled   ip address dhcp 
+Which four steps are needed to configure a voice VLAN on a switch port   Choose four    Assign the voice VLAN to the switch port  
+Which STP port role is adopted by a switch port if there is no other port with a lower cost to the root bridge   root port 
+Which term describes a field in the IPv4 packet header that contains a 32-bit binary value associated with an interface on the sending device   source IPv4 address 
+What network prefix and prefix-length combination is used to create a default static route that will match any IPv6 destination      0 
+Refer to the exhibit  A network administrator is connecting a new host to the Medical LAN  The host needs to communicate with remote networks  What IP address would be configured as the default gateway on the new host  prompt BldgA config   interface gi0 1  br BldgA config-if   description Connects to the Medical LAN  br BldgA config-if   ip address 192 168 191 189 255 255 255 0  br BldgA config-if   no shutdown  br BldgA config-if   interface gi0 0  br BldgA config-if   description Connects to the Client LAN  br BldgA config-if   ip address 192 168 190 70 255 255 255 0  br BldgA config-if   no shutdown  br BldgA config-if   interface s0 0 0  br BldgA config-if   description Connects to the ISP  br BldgA config-if   ip address 10 190 191 254 255 255 255 0  br BldgA config-if   no shutdown  br BldgA config-if   interface s0 0 1  br BldgA config-if   description Connects to the Head Office WAN  br BldgA config-if   ip address 198 51 100 213 255 255 255 0  br BldgA config-if   no shutdown  br BldgA config-if   end  prompt   192 168 191 189 
+A client creates a packet to send to a server  The client is requesting SNMP service  What number will be used as the destination port number in the sending packet   161 
+Which flag in the TCP header is used in response to a received FIN in order to terminate connectivity between two network devices   ACK 
+Which device would be classified as a trusted endpoint   IP phone 
+What information is used by TCP to reassemble and reorder received segments   sequence numbers 
+Which command is used to verify that OSPF is enabled and also provides a list of the networks that are being advertised by the network   show ip protocols 
+Why is QoS an important issue in a converged network that combines voice  video  and data communications   Voice and video communications are more sensitive to latency  
+What term describes a network where one computer can be both client and server   peer-to-peer 
+Which OPSF packet contains the different types of link-state advertisements   LSU 
+An administrator decides to use  WhatAreyouwaiting4  as the password on a newly installed router  Which statement applies to the password choice   It is strong because it uses a passphrase  
+What is a basic characteristic of the IP protocol   connectionless 
+Which statement is true regarding the use of PAgP to create EtherChannels   It is Cisco proprietary  
+At which OSI layer is data added to a PDU during the encapsulation process   application layer 
+Which IPv4 address can a host use to ping the loopback interface   127 0 0 1 
+An administrator decides to use  5 7 4 033   as the password on a newly installed router  Which statement applies to the password choice   It is strong because it contains 10 numbers and special characters  
+What indicates to a link-state router that a neighbor is unreachable   if the router no longer receives hello packets 
+Which frame forwarding method receives the entire frame and performs a CRC check to detect errors before forwarding the frame   store-and-forward switching 
+A technician is configuring a new Cisco 2960 switch  What is the effect of issuing the BranchSw  enable command   It enters privileged mode  
+Why would a Layer 2 switch need an IP address   to enable the switch to be managed remotely 
+What are two characteristics of RAM on a Cisco device   Choose two    The configuration that is actively running on the device is stored in RAM  
+At which OSI layer is a source IP address added to a PDU during the encapsulation process   network layer 
+Which two characteristics describe the native VLAN   Choose two    The native VLAN traffic will be untagged across the trunk link  
+What is an accurate description of redundancy   designing a network to use multiple paths between switches to ensure there is no single point of failure 
+A switch is configured to run STP  What term describes a field that has a default value of 32 768 and is the initial deciding factor when electing a root bridge   bridge priority 
+What is the benefit of deploying Layer 3 QoS marking across an enterprise network   Layer 3 marking can carry the QoS information end-to-end  
+A technician is configuring a new Cisco 2960 switch  What is the effect of issuing the BranchSw config-if   ipv6 address 2001 db8 a2b4 88  1 64 command   It applies an IPv6 address to the virtual interface  
+Which protocol is used by a client to communicate securely with a web server   HTTPS 
+What action will occur if a host receives a frame with a destination MAC address it does not recognize   The host will discard the frame  
+Which statement describes the ping and tracert commands   Tracert shows each hop
+What is a characteristic of an IPv4 loopback interface on a Cisco IOS router   It is a logical interface internal to the router  
+What are two drawbacks to turning spanning tree off and having multiple paths through the Layer 2 switch network   Choose two    The MAC address table becomes unstable  
+A network administrator configures a router with the command sequence  prompt R1 config   boot system tftp c1900-universalk9-mz SPA 152-4 M3 bin  br R1 config   boot system rom  br What is the effect of the command sequence   prompt   The router will load IOS from the TFTP server  If the image fails to load
+A PC that is communicating with a web server has a TCP window size of 6 000 bytes when sending data and a packet size of 1 500 bytes  Which byte of information will the web server acknowledge after it has received two packets of data from the PC   3001 
+Which command displays information about the auto-MDIX setting for a specific interface   show controllers 
+Which two functions are performed at the MAC sublayer of the OSI data link layer   Choose two    Provides a mechanism to allow multiple devices to communicate over a shared medium  
+How many bits must be borrowed from the host portion of an address to accommodate a router with five connected networks   three 

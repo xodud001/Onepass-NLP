@@ -1,44 +1,35 @@
-Management
-Address_Resolution
-NAT
-MAC
-IP_Addresses
-ARP
-FTP
-OSI_7_Layer
-Building_Network
-Packet
-SMTP
-Protocol
-Physical_Layer
-Switch
-EtherChannel
-Data_Link_Layer
-VLAN
-Network_Virtuailzation
-OSPF
-DHCP
-FHRP
-Command
-QoS
-Security
-IP_Addressing
-Application_Layer
-ICMP
-Number_Systems
-WAN
-Device_Configuration
-Transport_Layer
-ACL
-Network_Automation
-Routing
-STP
-Network_Layer
-Router
-VPN, IPSec
-DNS
-IP
-Network_Structure
-TroubleShooting
-ND
-WLAN
+1. Address_Resolution(ARP, ND) -> arp 완료
+2. STP -> 완료
+3. EtherChannel -> 완료
+4. Switch(MAC) -> 완료
+5. IP -> 완료
+6. VPN -> 완료
+7. VLAN -> 완료
+8. QoS -> 완료
+9. WLAN -> 완료
+10. Router -> 완료
+11. FHRP -> 완료
+12. ACL -> 완료
+13. Security-> 완료
+14. WAN-> 완료
+15. Network_Structure -> 완료
+16. TroubleShooting -> 완료
+17. OSPF -> 완료
+18. Routing -> 완료
+19. network_automation -> 완료
+20. Network_Virtuailzation -> 완료
+21. Building_Network -> 일단 두자
+
+Device_Configuration(공통 설정만) -> 애매
+Command -> 애매
+Management -> 애매
+OSI_7_Layer(Physical_Layer, Data_Link_Layer, Application_Layer, Transport_Layer, Network_Layer) -> 애매
+Protocol(ICMP, SMTP, FTP, DNS, DHCP, NAT) -> 애매
+
+
+
+
+
+
+
+
