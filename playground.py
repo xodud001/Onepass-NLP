@@ -41,11 +41,11 @@ history = model.fit(x_train, y_train, batch_size=32, epochs=100, callbacks=[es, 
 print(history)
 
 
-# connection_string = "mongodb://user1:1528@52.78.23.245/train"
-# client = MongoClient(connection_string)
-#
-# db_handle = client['train']
-# collection_name = db_handle['model']
+connection_string = "mongodb://user1:1528@52.78.23.245/train"
+client = MongoClient(connection_string)
+
+db_handle = client['train']
+collection_name = db_handle['model']
 
 layers = []
 for layer in history.model.layers:
@@ -60,6 +60,5 @@ trained_model = {
     'model_layer': layers
 }
 
-print(trained_model)
-# collection_name.insert()
+collection_name.insert_one(trained_model)
 # count = collection_name.count()
