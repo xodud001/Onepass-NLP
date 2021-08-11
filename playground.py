@@ -5,6 +5,7 @@ from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint
 
 from sklearn.model_selection import train_test_split
 
+from pymongo import MongoClient
 
 from tensorflow.keras import optimizers
 from tensorflow.python.keras.layers import Dropout
@@ -37,9 +38,28 @@ model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['acc']
 
 history = model.fit(x_train, y_train, batch_size=32, epochs=100, callbacks=[es, mc], validation_data=(x_valid, y_valid))
 
-# print(history)
+print(history)
 
 
+# connection_string = "mongodb://user1:1528@52.78.23.245/train"
+# client = MongoClient(connection_string)
+#
+# db_handle = client['train']
+# collection_name = db_handle['model']
 
+layers = []
+for layer in history.model.layers:
+    layers.append(layer.name)
 
+trained_model = {
+    'epoch': len(history.epoch),
+    'loss': history.history['loss'],
+    'acc': history.history['acc'],
+    'val_loss': history.history['val_loss'],
+    'val_acc': history.history['val_acc'],
+    'model_layer': layers
+}
 
+print(trained_model)
+# collection_name.insert()
+# count = collection_name.count()
