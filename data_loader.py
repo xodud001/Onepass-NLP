@@ -63,7 +63,7 @@ def load_data(word_len, padding):
     return [x_train, y_train, len(y_mapper)]
 
 
-def load_test_data(word_len, padding):
+def load_test_data(padding, file_path):
     # 토큰화 도구
     tokenizer = TreebankWordTokenizer()
 
@@ -71,7 +71,7 @@ def load_test_data(word_len, padding):
     stop_words = util.load_stop_word()
 
     # 테스트 데이터 로드
-    x_test = util.csv_load('cleared_text.csv')
+    x_test = util.csv_load(file_path)
 
     # 토큰화 및 불용어 제거
     for i in range(len(x_test)):

@@ -37,7 +37,7 @@ def load_stop_word():
 
 def csv_load(filename):
     arr = []
-    file = open(filename, 'r')
+    file = open(filename, 'r', encoding='UTF-8')
     wr = csv.reader(file)
     for x in wr:
         arr.append(x[0])
